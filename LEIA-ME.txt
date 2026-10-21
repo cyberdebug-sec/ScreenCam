@@ -1,0 +1,25 @@
+ScreenCam Portátil
+==================
+
+Como iniciar
+------------
+Abra “Abrir ScreenCam.bat” ou execute ScreenCam.exe. A pasta ui deve permanecer ao lado do programa.
+
+Conteúdo incluído
+-----------------
+- ScreenCam.exe: aplicativo.
+- ffmpeg.exe: captura de tela, codificação de áudio/vídeo e captura de imagens.
+- ui: página inicial, imagens e sprites de interface.
+- ScreenCam.cs: código-fonte do aplicativo.
+- FFmpeg-LICENSE.txt e FFmpeg-BUILD-README.txt: licença GPL v3, configuração e informações da build FFmpeg 9.0.2 essentials de gyan.dev.
+
+Requisitos do Windows
+---------------------
+Windows 10 ou mais recente, 64 bits, e .NET Framework 4 ou mais recente. Câmera e microfone dependem dos dispositivos e drivers instalados. Não precisa instalar o FFmpeg nem adicioná-lo ao PATH: o executável incluído é usado automaticamente.
+
+Aviso de licença
+----------------
+A build FFmpeg incluída é GPL v3 e usa bibliotecas externas indicadas no arquivo FFmpeg-BUILD-README.txt. O código-fonte correspondente ao FFmpeg está no commit informado nesse README. FFmpeg é um projeto separado; esta pasta não representa uma versão oficial do Bandicam nem é afiliada a ele. Consulte a licença antes de redistribuir este pacote.
+
+Projeto FFmpeg: https://ffmpeg.org/
+Build para Windows: https://www.gyan.dev/ffmpeg/builds/
