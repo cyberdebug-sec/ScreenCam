@@ -4,6 +4,13 @@ A lightweight, modern, and user-friendly screen recorder. It allows you to recor
 
 ---
 
+> ⚠️ **IMPORTANT REQUIREMENT:**
+> **FFmpeg must be installed on your system and added to your system's PATH** for the video recording and encoding to work properly. 
+> - **Windows:** You can download it from [ffmpeg.org](https://ffmpeg.org/) or install it via winget (`winget install Gyan.FFmpeg`).
+> - **Mac / Linux:** Install it via your package manager (e.g., `sudo apt install ffmpeg` or `brew install ffmpeg`).
+
+---
+
 ## 🚀 Features
 
 - 🔴 **Real-Time Recording**: Smooth screen capture with optimized frame rate (FPS).
